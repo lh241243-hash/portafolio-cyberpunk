@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio Digital · Cyberpunk Edition</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+<div class="scanlines"></div>
+<div class="noise"></div>
+ 
+<div class="page-wrap">
+ 
+  <!-- ===================== HEADER ===================== -->
+  <header class="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow hero-glow--1"></div>
+    <div class="hero-glow hero-glow--2"></div>
+    <div class="hero-glow hero-glow--3"></div>
+ 
+    <div class="hero-inner">
+      <!-- TOP BAR -->
+      <div class="hero-topbar">
+        <div class="hero-topbar-left">
+          <span class="blink-dot"></span>
+          <span class="mono">UTS_SYSTEM v2.6 · ONLINE</span>
+        </div>
+        <div class="hero-topbar-right mono">2026.06.01 // BUCARAMANGA</div>
+      </div>
+ 
+      <!-- MAIN HERO CONTENT -->
+      <div class="hero-content">
+  
+        <!-- LEFT: Título -->
+        <div class="hero-left">
+          <div class="hero-eyebrow">
+            <span class="eyebrow-bracket">[</span>
+            <span>PORTAFOLIO ACADÉMICO</span>
+            <span class="eyebrow-bracket">]</span>
+          </div>
+          <h1 class="hero-title">
+            <span class="hero-title-line1">PORTAFOLIO</span>
+            <span class="hero-title-line2 glitch" data-text="DIGITAL">DIGITAL</span>
+          </h1>
+          <p class="hero-subtitle">Desarrollo de Contenidos Digitales y Multimedia</p>
+          <div class="hero-university">
+            <div class="uni-icon">⬡</div>
+            <span>Unidades Tecnológicas de Santander</span>
+          </div>
+
+          <!-- Resumen del portafolio -->
+          <div class="hero-stats-resumen">
+            <div class="resumen-header">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 00-.491 6.347A48.62 48.62 0 0112 20.904a48.62 48.62 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.636 50.636 0 00-2.658-.813A59.906 59.906 0 0112 3.493a59.903 59.903 0 0110.399 5.84c-.896.248-1.783.52-2.658.814"/>
+              </svg>
+              <span>// PROPÓSITO DEL PORTAFOLIO</span>
+            </div>
+            <p class="resumen-texto">
+              📌 Este portafolio documenta el proceso de aprendizaje en <strong>Desarrollo de Contenidos Digitales y Multimedia</strong>, 
+              integrando fundamentos del diseño, IA generativa, programación visual con Scratch y desarrollo de apps con App Inventor.
+            </p>
+          </div>
+        </div>
+
+        <!-- RIGHT: Avatares cuadrados + Mini reflexión -->
+        <div class="hero-right">
+          
+          <!-- AVATARES CUADRADOS -->
+          <div class="authors-grid">
+            <div class="author-card-big">
+              <div class="author-avatar-wrap-big">
+                <div class="author-avatar-big" id="avatar1">
+                  <img id="avatar1-img" src="https://lh3.googleusercontent.com/d/1ie1B-Z8psIFJTYkg0gvn2H62eEO6rox8" alt="Laura Herrera" style="width:100%; height:100%; object-fit:cover; border-radius:16px;" onerror="this.style.display='none'; document.getElementById('avatar1-placeholder').style.display='flex';">
+                  <div id="avatar1-placeholder" class="avatar-placeholder" style="display:none;">
+                    <span>LH</span>
+                    <label class="avatar-upload-btn" title="Cambiar foto">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z"/>
+                        <circle cx="12" cy="13" r="4"/>
+                      </svg>
+                      <input type="file" accept="image/*" onchange="loadAvatar(this, 'avatar1-img', 'avatar1-placeholder')" style="display:none;">
+                    </label>
+                  </div>
+                </div>
+                <div class="author-ring-big author-ring-big--purple"></div>
+                <div class="author-ring-big author-ring-big--outer"></div>
+              </div>
+              <div class="author-info-big">
+                <div class="author-name-big">Laura Herrera</div>
+                <div class="author-role-big mono">// Estudiante</div>
+              </div>
+            </div>
+
+            <div class="authors-divider">
+              <div class="authors-divider-line"></div>
+              <div class="authors-divider-icon">✦</div>
+              <div class="authors-divider-line"></div>
+            </div>
+
+            
+            <div class="author-card-big">
+              <div class="author-avatar-wrap-big">
+                <div class="author-avatar-big" id="avatar2">
+                  <img id="avatar2-img" src="https://lh3.googleusercontent.com/d/13rn5H-kFSAmZrXxBYubooWPesFVS4xKb" alt="Gustavo Duarte" style="width:100%; height:100%; object-fit:cover; border-radius:16px;" onerror="this.style.display='none'; document.getElementById('avatar2-placeholder').style.display='flex';">
+                  <div id="avatar2-placeholder" class="avatar-placeholder" style="display:none;">
+                    <span>GD</span>
+                    <label class="avatar-upload-btn" title="Cambiar foto">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z"/>
+                        <circle cx="12" cy="13" r="4"/>
+                      </svg>
+                      <input type="file" accept="image/*" onchange="loadAvatar(this, 'avatar2-img', 'avatar2-placeholder')" style="display:none;">
+                    </label>
+                  </div>
+                </div>
+                <div class="author-ring-big author-ring-big--pink"></div>
+                <div class="author-ring-big author-ring-big--outer"></div>
+              </div>
+              <div class="author-info-big">
+                <div class="author-name-big">Gustavo Duarte</div>
+                <div class="author-role-big mono">// Estudiante</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MINI REFLEXIÓN CYBERPUNK -->
+          <div class="mini-reflection">
+            <div class="reflection-header">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+              </svg>
+              <span class="mono">// APEX_THOUGHTS.exe</span>
+            </div>
+            <div class="reflection-text">
+              <span class="reflection-quote">“</span>
+              El diseño digital no es solo crear, es <strong>comunicar, transformar y conectar</strong> 
+              experiencias que inspiran. Cada línea de código, cada píxel, cada interacción 
+              es una oportunidad para innovar.
+              <span class="reflection-quote">”</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+ 
+      <!-- FLOATING TAGS (reposicionados) -->
+      <div class="float-tag float-tag--1">
+        <span class="tag-icon">✦</span> IA Generativa
+      </div>
+      <div class="float-tag float-tag--2">
+        <span class="tag-icon">⬡</span> Scratch · App Inventor
+      </div>
+      <div class="float-tag float-tag--3">
+        <span class="tag-icon">◈</span> Multimedia
+      </div>
+    </div>
+  </header>
+ 
+  <!-- ===================== TABS / LIBRO ===================== -->
+  <div class="tabs-wrap">
+    <nav class="tab-bar" role="tablist">
+      <button class="tab-btn active" data-tab="fundamentos">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+        <span>Fundamentos &amp; Creación</span>
+        <span class="tab-count">10</span>
+      </button>
+      <button class="tab-btn" data-tab="ia">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.091z"/></svg>
+        <span>Aplicación IA</span>
+        <span class="tab-count">3</span>
+      </button>
+      <button class="tab-btn" data-tab="scratch">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+        <span>Scratch</span>
+        <span class="tab-count">6</span>
+      </button>
+      <button class="tab-btn" data-tab="appinventor">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"/></svg>
+        <span>App Inventor</span>
+        <span class="tab-count">5</span>
+      </button>
+      <button class="tab-btn" data-tab="web">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3"/></svg>
+        <span>Web Educativa</span>
+      </button>
+      <button class="tab-btn" data-tab="conclusiones">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <span>Conclusiones</span>
+        <span class="tab-count">4</span>
+      </button>
+    </nav>
+ 
+    <div class="tab-panels">
+ 
+      <!-- ========== PANEL 1: FUNDAMENTOS ========== -->
+      <div class="tab-panel active" id="fundamentos">
+        <div class="corner-fold"></div>
+        <div class="sec-header">
+          <div class="sec-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+          </div>
+          <div class="sec-title-block">
+            <div class="sec-label mono">// MÓDULO_01</div>
+            <div class="sec-title">Fundamentos del Diseño Digital</div>
+            <div class="sec-desc">Recursos clave sobre principios de diseño, multimedia y licenciamiento</div>
+          </div>
+        </div>
+ 
+        <div class="cards-grid">
+          <div class="card" onclick="window.open('https://youtu.be/wIUTyAu6hDI','_blank')">
+            <div class="card-thumb">
+              <img src="https://img.youtube.com/vi/wIUTyAu6hDI/maxresdefault.jpg" alt="Video fundamentos" onerror="this.style.display='none'">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-yt">YouTube</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">Fundamentos del Diseño Digital</div>
+              <div class="card-desc">Video explicativo sobre principios básicos del diseño digital y multimedia.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+ 
+          <div class="card" onclick="abrirModal('genially','https://view.genially.com/69b6c803a7ff1a0c2ff16b26/interactive-content-principios-del-diseno-multimedia')">
+            <div class="card-thumb">
+              <img src="imagenes/mayer.png" alt="Principios de Mayer" onerror="this.style.display='none'">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-gen">Genially</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">Principios de Mayer</div>
+              <div class="card-desc">Infografía interactiva sobre teoría cognitiva del aprendizaje multimedia.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+ 
+          <div class="card" onclick="abrirModal('genially','https://view.genially.com/69b6bd2facd9a486291eb413/presentation-tendencias-en-diseno-interactivo')">
+            <div class="card-thumb">
+              <img src="imagenes/diseño_interactivo.png" alt="Tendencias globales" onerror="this.style.display='none'">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-gen">Genially</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">Tendencias en Diseño Interactivo</div>
+              <div class="card-desc">Quiz interactivo sobre tendencias globales del diseño digital actual.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+ 
+          <div class="card" onclick="abrirModal('imagen','imagenes/canva1.jpeg')">
+            <div class="card-thumb">
+              <img src="imagenes/canva1.jpeg" alt="Infografía Canva 1" onerror="this.style.display='none'">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-img">Canva</div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">Rol del Programador y Usuario</div>
+              <div class="card-desc">Infografía sobre el ecosistema digital y roles en el desarrollo de contenidos.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+ 
+          <div class="card" onclick="abrirModal('imagen','imagenes/canva2.jpeg')">
+            <div class="card-thumb">
+              <img src="imagenes/canva2.jpeg" alt="Infografía licencias" onerror="this.style.display='none'">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-img">Canva</div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">Licenciamiento de Contenidos</div>
+              <div class="card-desc">Creative Commons y propiedad intelectual en entornos digitales educativos.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="subsec-divider">
+          <div class="subsec-divider-line"></div>
+          <span class="subsec-divider-label mono">// MÓDULO_02</span>
+          <div class="subsec-divider-line"></div>
+        </div>
+ 
+        <div class="sec-header">
+          <div class="sec-icon" style="--icon-color: var(--pink);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"/></svg>
+          </div>
+          <div class="sec-title-block">
+            <div class="sec-label mono" style="color:var(--pink);">// MÓDULO_02</div>
+            <div class="sec-title">Creación de Contenidos Digitales</div>
+            <div class="sec-desc">Producciones multimedia, infografías interactivas y materiales educativos propios</div>
+          </div>
+        </div>
+ 
+        <div class="cards-grid">
+          <div class="card" onclick="abrirModal('genially','https://view.genially.com/69a0fd9e24f962cc6dcd046e/presentation-desarrollo-de')">
+            <div class="card-thumb">
+              <img src="imagenes/Desarrollo.png" alt="Desarrollo contenidos" onerror="this.style.display='none'">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-gen">Genially</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">Desarrollo de Contenidos</div>
+              <div class="card-desc">Presentación interactiva sobre metodologías de producción de contenidos.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+ 
+          <div class="card" onclick="abrirModal('imagen','imagenes/Matriz.png')">
+            <div class="card-thumb">
+              <img src="imagenes/Matriz.png" alt="Matriz de planeación" onerror="this.style.display='none'">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-img">Imagen</div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">Matriz de Planeación</div>
+              <div class="card-desc">Organización estratégica de contenidos educativos digitales.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+ 
+          <div class="card" onclick="abrirModal('genially','https://view.genially.com/6999367127606314b4a28650/interactive-content-pausas-activas')">
+            <div class="card-thumb">
+              <img src="imagenes/infografia.png" alt="Infografía interactiva" onerror="this.style.display='none'">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-gen">Genially</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">Infografía Interactiva</div>
+              <div class="card-desc">Recurso visual dinámico creado con herramientas interactivas digitales.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+ 
+          <div class="card" onclick="abrirModal('video-local','videos/educativo.mp4')">
+            <div class="card-thumb" style="background: linear-gradient(135deg, #0a0015 0%, #1a0030 100%);">
+              <div class="card-thumb-icon">▶</div>
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-vid">Video</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">Video Educativo Corto</div>
+              <div class="card-desc">Producción audiovisual sobre conceptos clave del módulo.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+ 
+          <div class="card" onclick="abrirModal('genially','https://view.genially.com/69a37fefa8dd2f113b081792/presentation-sostenible')">
+            <div class="card-thumb">
+              <img src="imagenes/inteligencia_artificial.png" alt="IA Generativa" onerror="this.style.display='none'">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-gen">Genially</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">IA Generativa y Sostenibilidad</div>
+              <div class="card-desc">Presentación sobre el impacto de la inteligencia artificial en educación.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+           <!-- ========== PANEL 2: IA ========== -->
+      <div class="tab-panel" id="ia">
+        <div class="corner-fold"></div>
+        <div class="sec-header">
+          <div class="sec-icon" style="--icon-color: var(--cyan);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.091z"/></svg>
+          </div>
+          <div class="sec-title-block">
+            <div class="sec-label mono">// MÓDULO_03</div>
+            <div class="sec-title">Aplicación de IA Generativa</div>
+            <div class="sec-desc">Ingeniería de prompts, herramientas y aplicaciones prácticas en educación</div>
+          </div>
+        </div>
+
+        <!-- INTRODUCCIÓN Y ANATOMÍA (ancho completo) -->
+        <div class="info-block">
+          <div class="info-block-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931z"/></svg>
+            ¿Qué es la Ingeniería de Prompts?
+          </div>
+          <p>La <strong>ingeniería de prompts</strong> es la práctica de diseñar instrucciones claras y estructuradas para obtener respuestas útiles de modelos de IA generativa como ChatGPT, Gemini o Claude. Un prompt bien diseñado incluye cuatro elementos fundamentales: <strong>contexto</strong>, <strong>rol específico</strong>, <strong>instrucción clara</strong> y <strong>formato de salida</strong>.</p>
+        </div>
+
+        <div class="info-block">
+          <div class="info-block-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6z"/></svg>
+            Anatomía de un Prompt
+          </div>
+          <p>Estructura recomendada: <strong>[Rol]</strong> + <strong>[Contexto]</strong> + <strong>[Tarea específica]</strong> + <strong>[Formato deseado]</strong>.</p>
+          
+          <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem;">
+            <div style="flex: 1; background: rgba(139,63,255,0.08); border-radius: 12px; padding: 0.8rem; text-align: center;">
+              <div style="font-size: 1.5rem;">🎭</div>
+              <strong style="color: var(--purple-l);">ROL</strong>
+              <p style="font-size: 0.7rem;">¿Quién debe actuar la IA?</p>
+            </div>
+            <div style="flex: 1; background: rgba(34,211,238,0.08); border-radius: 12px; padding: 0.8rem; text-align: center;">
+              <div style="font-size: 1.5rem;">📚</div>
+              <strong style="color: var(--cyan);">CONTEXTO</strong>
+              <p style="font-size: 0.7rem;">¿Para quién? ¿En qué situación?</p>
+            </div>
+            <div style="flex: 1; background: rgba(251,146,60,0.08); border-radius: 12px; padding: 0.8rem; text-align: center;">
+              <div style="font-size: 1.5rem;">🎯</div>
+              <strong style="color: var(--orange);">TAREA</strong>
+              <p style="font-size: 0.7rem;">¿Qué debe hacer exactamente?</p>
+            </div>
+            <div style="flex: 1; background: rgba(224,64,251,0.08); border-radius: 12px; padding: 0.8rem; text-align: center;">
+              <div style="font-size: 1.5rem;">📐</div>
+              <strong style="color: var(--pink);">FORMATO</strong>
+              <p style="font-size: 0.7rem;">¿Cómo debe presentarlo?</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTENIDO PRINCIPAL: 2 COLUMNAS -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem;">
+          
+          <!-- ========== COLUMNA IZQUIERDA: RECURSOS MULTIMEDIA ========== -->
+          <div>
+            <div class="sec-header" style="margin-bottom: 1rem;">
+              <div class="sec-icon" style="--icon-color: var(--cyan); width: 36px; height: 36px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z"/></svg>
+              </div>
+              <div class="sec-title-block">
+                <div class="sec-label mono">// RECURSOS</div>
+                <div class="sec-title" style="font-size: 1rem;">Multimedia</div>
+              </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+              
+              <!-- Video YouTube Embebido -->
+              <div class="card" style="cursor: default; overflow: hidden;">
+                <div class="card-thumb iframe-thumb" style="height: auto; padding: 0;">
+                  <iframe width="100%" height="200" src="https://www.youtube.com/embed/jUN5blyU-so" title="Personalización del aprendizaje con IA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: block;"></iframe>
+                  <div class="type-badge type-yt">YouTube</div>
+                </div>
+                <div class="card-body">
+                  <div class="card-title">🎬 IA en la Educación</div>
+                  <div class="card-desc">Video sobre personalización del aprendizaje con inteligencia artificial.</div>
+                </div>
+              </div>
+
+              <!-- Presentación Canva Embebida -->
+              <div class="card" style="cursor: default; overflow: hidden;">
+                <div class="card-thumb iframe-thumb" style="height: auto; padding: 0;">
+                  <iframe loading="lazy" 
+                    src="https://www.canva.com/design/DAHL4-v3Qh8/pwo8dxMOLulcwxotGULmGA/view?embed" 
+                    width="100%" 
+                    height="400" 
+                    allowfullscreen="allowfullscreen" 
+                    allow="fullscreen" 
+                    style="border: none; background: #030009;">
+                  </iframe>
+                  <div class="type-badge type-gen">Canva</div>
+                </div>
+                <div class="card-body">
+                  <div class="card-title">🎨 Anatomía de un Prompt</div>
+                  <div class="card-desc">Presentación interactiva sobre diseño y estructura de prompts (embebida).</div>
+                </div>
+              </div>
+
+              <!-- Juego Playabl - Abre en nueva pestaña -->
+              <div class="card" onclick="window.open('https://playabl.ai/en/@helly3098/ne-n-heredado--6a255853e88129c3cbca1f19', '_blank')" style="cursor: pointer;">
+                <div class="card-thumb" style="background: linear-gradient(135deg, #1a0a2a, #2a0a3a); display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 0.8rem;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" style="width: 64px; height: 64px; opacity: 0.6;" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/>
+                  </svg>
+                  <span style="font-family: var(--font-display); font-size: 0.7rem; color: var(--orange); letter-spacing: 0.1em;">NEÓN HEREDADO</span>
+                  <div class="type-badge type-scr">Playabl</div>
+                  <div class="play-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+                </div>
+                <div class="card-body">
+                  <div class="card-title">🎮 Neón Heredado</div>
+                  <div class="card-desc">Juego de terror por oleadas que enseña Programación Orientada a Objetos. Sobrevive y depura errores de encapsulación, herencia y polimorfismo.</div>
+                  <div class="card-arrow">→</div>
+                </div>
+              </div>
+
+              <!-- Música de fondo (Espacio reservado 1) -->
+              <div class="card" style="cursor: default;">
+                <div class="card-thumb" style="position: relative; overflow: hidden;">
+                  <img src="https://lh3.googleusercontent.com/d/1cR5nk6HCKak8-aNV-Zfpzre5BWMuVXHw" alt="Código Neón - Synthwave" style="width:100%; height:100%; object-fit:cover;">
+                  <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,0,0,0.3), rgba(139,63,255,0.15));"></div>
+                  <div class="type-badge type-vid">Música IA</div>
+                  <div class="play-badge" style="background: rgba(224,64,251,0.8);"><svg viewBox="0 0 24 24" fill="currentColor" style="margin-left: 2px;"><path d="M8 5v14l11-7z"/></svg></div>
+                </div>
+                <div class="card-body">
+                  <div class="card-title">🎧 Código Neón</div>
+                  <div class="card-desc" style="font-size: 0.7rem; margin-bottom: 0.8rem;">
+                    Canción <strong>synthwave cyberpunk</strong> generada con <strong>Suno AI</strong>.<br>
+                    <em>Prompt: "Synthwave, cyberpunk, dark electronic, driving 4/4 beat. Letra sobre encapsulación, herencia y polimorfismo."</em>
+                  </div>
+                  <button id="btnActivarMusica" class="btn-musica" style="width: 100%; background: linear-gradient(135deg, var(--purple), var(--pink)); border: none; border-radius: 10px; padding: 0.6rem; color: white; font-family: var(--font-mono); font-size: 0.7rem; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px;"><path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 010 1.972l-11.54 6.347a1.125 1.125 0 01-1.667-.986V5.653z"/></svg>
+                    ▶ ACTIVAR MÚSICA
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ========== COLUMNA DERECHA: PROMPTS + CHATBOT ========== -->
+          <div>
+            <!-- Lista de Prompts (Acordeón) -->
+            <div class="sec-header" style="margin-bottom: 1rem;">
+              <div class="sec-icon" style="--icon-color: var(--pink); width: 36px; height: 36px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"/></svg>
+              </div>
+              <div class="sec-title-block">
+                <div class="sec-label mono">// PROMPTS</div>
+                <div class="sec-title" style="font-size: 1rem;">Lista de Prompts Utilizados</div>
+              </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 1.5rem;">
+              <!-- Prompt 1: Educativo -->
+              <details style="background: rgba(139,63,255,0.08); border-radius: 12px; padding: 0.5rem;">
+                <summary style="font-family: var(--font-display); font-size: 0.75rem; color: var(--purple-l); cursor: pointer; padding: 0.5rem; list-style: none; display: flex; align-items: center; gap: 0.5rem;">
+                  <span>🎓</span> Prompts Educativos (Principios de Mayer)
+                  <span style="margin-left: auto; font-size: 0.7rem;">▼</span>
+                </summary>
+                <div style="padding: 0.8rem; font-family: monospace; font-size: 0.7rem; color: var(--text-2); background: rgba(0,0,0,0.3); border-radius: 8px; margin-top: 0.5rem;">
+                  "Actúa como un tutor de diseño multimedia. Explica los principios de Mayer a estudiantes universitarios de primer semestre y propone 3 preguntas de opción múltiple con sus respuestas. Usa lenguaje sencillo y ejemplos cotidianos."
+                </div>
+              </details>
+
+              <!-- Prompt 2: Creativo -->
+              <details style="background: rgba(34,211,238,0.08); border-radius: 12px; padding: 0.5rem;">
+                <summary style="font-family: var(--font-display); font-size: 0.75rem; color: var(--cyan); cursor: pointer; padding: 0.5rem; list-style: none; display: flex; align-items: center; gap: 0.5rem;">
+                  <span>🎨</span> Prompts Creativos (Infografía)
+                  <span style="margin-left: auto; font-size: 0.7rem;">▼</span>
+                </summary>
+                <div style="padding: 0.8rem; font-family: monospace; font-size: 0.7rem; color: var(--text-2); background: rgba(0,0,0,0.3); border-radius: 8px; margin-top: 0.5rem;">
+                  "Eres un experto en UX/UI. Genera una descripción detallada para una infografía interactiva sobre las tendencias de diseño en 2025. Incluye 5 puntos clave, iconos sugeridos y una paleta de colores recomendada."
+                </div>
+              </details>
+
+              <!-- Prompt 3: Técnico -->
+              <details style="background: rgba(251,146,60,0.08); border-radius: 12px; padding: 0.5rem;">
+                <summary style="font-family: var(--font-display); font-size: 0.75rem; color: var(--orange); cursor: pointer; padding: 0.5rem; list-style: none; display: flex; align-items: center; gap: 0.5rem;">
+                  <span>💻</span> Prompts Técnicos (Scratch)
+                  <span style="margin-left: auto; font-size: 0.7rem;">▼</span>
+                </summary>
+                <div style="padding: 0.8rem; font-family: monospace; font-size: 0.7rem; color: var(--text-2); background: rgba(0,0,0,0.3); border-radius: 8px; margin-top: 0.5rem;">
+                  "Actúa como un profesor de pensamiento computacional. Crea instrucciones paso a paso para un juego en Scratch donde un gato atrape una pelota. Incluye puntuación y game over. Usa lista numerada y menciona los bloques de color."
+                </div>
+              </details>
+
+              <!-- Prompt 4: Videojuegos -->
+              <details style="background: rgba(224,64,251,0.08); border-radius: 12px; padding: 0.5rem;">
+                <summary style="font-family: var(--font-display); font-size: 0.75rem; color: var(--pink); cursor: pointer; padding: 0.5rem; list-style: none; display: flex; align-items: center; gap: 0.5rem;">
+                  <span>🎮</span> Prompts para Videojuegos (OOP)
+                  <span style="margin-left: auto; font-size: 0.7rem;">▼</span>
+                </summary>
+                <div style="padding: 0.8rem; font-family: monospace; font-size: 0.7rem; color: var(--text-2); background: rgba(0,0,0,0.3); border-radius: 8px; margin-top: 0.5rem;">
+                  "Crea un juego 2D de terror por oleadas que enseña Programación Orientada a Objetos. Enemigos con herencia y polimorfismo. Sistema de depuración con errores de encapsulación. 5 oleadas para ganar. Estilo pixel art neón."
+                </div>
+              </details>
+
+              <!-- Prompt 5: Presentaciones -->
+              <details style="background: rgba(139,63,255,0.08); border-radius: 12px; padding: 0.5rem;">
+                <summary style="font-family: var(--font-display); font-size: 0.75rem; color: var(--lilac); cursor: pointer; padding: 0.5rem; list-style: none; display: flex; align-items: center; gap: 0.5rem;">
+                  <span>🖼️</span> Prompts para Presentaciones
+                  <span style="margin-left: auto; font-size: 0.7rem;">▼</span>
+                </summary>
+                <div style="padding: 0.8rem; font-family: monospace; font-size: 0.7rem; color: var(--text-2); background: rgba(0,0,0,0.3); border-radius: 8px; margin-top: 0.5rem;">
+                  "Actúa como diseñador gráfico. Crea presentación de 8 diapositivas sobre 'Anatomía de un Prompt'. Tema cyberpunk neón. Tipografía Orbitron. Incluye: portada, anatomía, ejemplos, errores comunes, plantilla."
+                </div>
+              </details>
+            </div>
+
+            <!-- Chatbot Cyber Tutor (Espacio reservado 2) -->
+            <div class="sec-header" style="margin-bottom: 1rem; margin-top: 1rem;">
+              <div class="sec-icon" style="--icon-color: var(--cyan); width: 36px; height: 36px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.091z"/></svg>
+              </div>
+              <div class="sec-title-block">
+                <div class="sec-label mono">// CHATBOT_IA</div>
+                <div class="sec-title" style="font-size: 1rem;">Cyber Tutor · Gemini AI</div>
+              </div>
+            </div>
+
+            <div style="background: rgba(7,0,15,0.5); border-radius: 20px; border: 1px solid rgba(34,211,238,0.2); overflow: hidden;">
+              <div style="display: flex; justify-content: space-between; align-items: center; padding: 0.8rem 1rem; background: rgba(34,211,238,0.1); border-bottom: 1px solid rgba(34,211,238,0.2);">
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span style="font-size: 1.2rem;">🧠</span>
+                  <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--cyan);">CYBER TUTOR · Gemini AI</span>
+                </div>
+                <span id="miniChatStatus" style="font-size: 0.55rem; font-family: var(--font-mono); color: var(--text-3);">💡 listo</span>
+              </div>
+              
+              <div id="miniChatMessages" style="height: 250px; overflow-y: auto; padding: 0.8rem; display: flex; flex-direction: column; gap: 0.6rem; background: rgba(3,0,9,0.5);">
+                <div style="background: rgba(34,211,238,0.08); border-left: 3px solid var(--cyan); padding: 0.5rem 0.8rem; border-radius: 12px; font-size: 0.7rem; color: var(--text-2);">
+                  🤖 ¡Hola! Soy Cyber Tutor. Pregúntame sobre programación, IA, tecnología o diseño digital.
+                </div>
+              </div>
+              
+              <div style="display: flex; padding: 0.8rem; gap: 0.5rem; border-top: 1px solid rgba(34,211,238,0.1);">
+                <input type="text" id="miniChatInput" placeholder="Ej: ¿Qué es Python?" style="flex: 1; background: rgba(7,0,15,0.6); border: 1px solid rgba(34,211,238,0.3); border-radius: 20px; padding: 0.6rem 1rem; color: var(--text-1); font-family: var(--font-body); font-size: 0.7rem;">
+                <button id="miniChatSend" style="background: linear-gradient(135deg, var(--cyan), #0891b2); border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; color: white; display: flex; align-items: center; justify-content: center;">📤</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- ========== PANEL 3: SCRATCH ========== -->
+      <div class="tab-panel" id="scratch">
+        <div class="corner-fold"></div>
+        <div class="sec-header">
+          <div class="sec-icon" style="--icon-color: var(--orange);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+          </div>
+          <div class="sec-title-block">
+            <div class="sec-label mono">// MÓDULO_04</div>
+            <div class="sec-title">Programación Educativa con Scratch</div>
+            <div class="sec-desc">Proyectos interactivos creados con el entorno de programación visual de MIT</div>
+          </div>
+        </div>
+
+        <div class="explain-block">
+          <div class="explain-icon" style="color: var(--orange);">⬡</div>
+          <div class="explain-text">
+            <h4>¿Qué es Scratch?</h4>
+            <p>Scratch es un lenguaje de programación visual desarrollado por el MIT Media Lab. Permite crear historias interactivas, juegos, animaciones y simulaciones mediante bloques arrastrables, sin necesidad de escribir código. Es ideal para introducir el pensamiento computacional en entornos educativos.</p>
+          </div>
+        </div>
+
+        <div class="cards-grid scratch-grid">
+          <div class="card" onclick="abrirModalScratch('1299110201')">
+            <div class="card-thumb" style="background: linear-gradient(135deg, #0a2a1a 0%, #1a3a2a 100%); position: relative; overflow: hidden;">
+              <img src="https://uploads.scratch.mit.edu/get_image/project/1299110201_480x360.png" alt="Juego Interactivo Scratch" style="width:100%; height:100%; object-fit:cover; opacity:0.85;" onerror="this.src='https://cdn2.scratch.mit.edu/get_image/project/1299110201_480x360.png'; this.onerror=null;">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-scr">Scratch</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">🎮 Juego Interactivo</div>
+              <div class="card-desc">Experiencia de aprendizaje interactiva con Scratch. Aprende conceptos de programación mientras juegas.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+
+          <div class="card" onclick="abrirModalScratch('1299282585')">
+            <div class="card-thumb" style="background: linear-gradient(135deg, #1a0a2a 0%, #2a1a3a 100%); position: relative; overflow: hidden;">
+              <img src="https://uploads.scratch.mit.edu/get_image/project/1299282585_480x360.png" alt="Aventura Educativa Scratch" style="width:100%; height:100%; object-fit:cover; opacity:0.85;" onerror="this.src='https://cdn2.scratch.mit.edu/get_image/project/1299282585_480x360.png'; this.onerror=null;">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-scr">Scratch</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">📚 Aventura Educativa</div>
+              <div class="card-desc">Proyecto creativo para aprender mientras juegas. Explora mundos y resuelve desafíos.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+
+          <div class="card" onclick="abrirModalScratch('1299402508')">
+            <div class="card-thumb" style="background: linear-gradient(135deg, #0a2a2a 0%, #1a3a3a 100%); position: relative; overflow: hidden;">
+              <img src="https://uploads.scratch.mit.edu/get_image/project/1299402508_480x360.png" alt="Simulador Ecológico Scratch" style="width:100%; height:100%; object-fit:cover; opacity:0.85;" onerror="this.src='https://cdn2.scratch.mit.edu/get_image/project/1299402508_480x360.png'; this.onerror=null;">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-scr">Scratch</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">🌿 Simulador Ecológico</div>
+              <div class="card-desc">Proyecto de conciencia ambiental con dinámicas de ecosistema interactivo.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+
+          <div class="card" onclick="abrirModalScratch('1299569885')">
+            <div class="card-thumb" style="background: linear-gradient(135deg, #2a1a0a 0%, #3a2a1a 100%); position: relative; overflow: hidden;">
+              <img src="https://uploads.scratch.mit.edu/get_image/project/1299569885_480x360.png" alt="Laberinto Educativo Scratch" style="width:100%; height:100%; object-fit:cover; opacity:0.85;" onerror="this.src='https://cdn2.scratch.mit.edu/get_image/project/1299569885_480x360.png'; this.onerror=null;">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-scr">Scratch</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">🎮 Laberinto Educativo</div>
+              <div class="card-desc">Desafío de preguntas y respuestas en formato de laberinto interactivo.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+
+          <div class="card" onclick="abrirModalScratch('1299601638')">
+            <div class="card-thumb" style="background: linear-gradient(135deg, #1a2a0a 0%, #2a3a1a 100%); position: relative; overflow: hidden;">
+              <img src="https://uploads.scratch.mit.edu/get_image/project/1299601638_480x360.png" alt="Tutorial de Geometría Scratch" style="width:100%; height:100%; object-fit:cover; opacity:0.85;" onerror="this.src='https://cdn2.scratch.mit.edu/get_image/project/1299601638_480x360.png'; this.onerror=null;">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-scr">Scratch</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">📐 Tutorial de Geometría</div>
+              <div class="card-desc">Aprendizaje matemático interactivo sobre figuras geométricas.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+
+           <!-- Juego: La gravedad -->
+          <div class="card" onclick="abrirModalScratch('1328728294')">
+            <div class="card-thumb iframe-thumb" style="height: auto; padding: 0; background: #030009;">
+              <iframe src="https://scratch.mit.edu/projects/1328728294/embed" 
+                      allowtransparency="true" 
+                      width="100%" 
+                      height="280" 
+                      frameborder="0" 
+                      scrolling="no" 
+                      allowfullscreen
+                      style="display: block; border-radius: 16px 16px 0 0;">
+              </iframe>
+              <div class="type-badge type-scr">Scratch</div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">🌍 La gravedad</div>
+              <div class="card-desc">Proyecto interactivo que simula el comportamiento de la gravedad.</div>
+              <div class="card-arrow">→</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pdf-resource-block">
+          <div class="pdf-resource-header">
+            <div class="pdf-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m.75 12l3 3m0 0l3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
+            </div>
+            <div>
+              <h4>Material Complementario</h4>
+              <p class="mono">Guía de programación en Scratch</p>
+            </div>
+          </div>
+          <div class="pdf-embed">
+            <iframe src="https://drive.google.com/file/d/16y8SKdepg-_B0Tel-TdfZvbgKIdeq1xN/preview" style="width:100%;height:60vh;border:none;" allow="autoplay" allowfullscreen></iframe>
+          </div>
+          <div style="text-align:center; margin-top:1rem;">
+            <a href="https://drive.google.com/file/d/16y8SKdepg-_B0Tel-TdfZvbgKIdeq1xN/view" target="_blank" rel="noopener" class="btn-drive">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+              Abrir en Google Drive
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ========== PANEL 4: APP INVENTOR ========== -->
+      <!-- ========== PANEL 4: APP INVENTOR ========== -->
+      <div class="tab-panel" id="appinventor">
+        <div class="corner-fold"></div>
+        <div class="sec-header">
+          <div class="sec-icon" style="--icon-color: var(--pink);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"/></svg>
+          </div>
+          <div class="sec-title-block">
+            <div class="sec-label mono">// MÓDULO_05</div>
+            <div class="sec-title">Prototipo con MIT App Inventor</div>
+            <div class="sec-desc">Desarrollo de aplicaciones móviles Android mediante programación visual por bloques</div>
+          </div>
+        </div>
+
+        <div class="explain-block">
+          <div class="explain-icon" style="color: var(--pink);">⬡</div>
+          <div class="explain-text">
+            <h4>¿Qué es MIT App Inventor?</h4>
+            <p>MIT App Inventor es una plataforma de desarrollo visual de aplicaciones móviles Android creada por el MIT. Mediante un editor de bloques intuitivo, permite a estudiantes y docentes crear aplicaciones funcionales sin necesidad de conocimientos avanzados de programación.</p>
+          </div>
+        </div>
+
+        <div class="info-block">
+          <div class="info-block-header" style="color: var(--pink);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"/></svg>
+            Explicación Pedagógica del Prototipo
+          </div>
+          <p>Desarrollamos una aplicación educativa tipo Quiz de ciencia que permite a los usuarios conocer su nivel de conocimiento en diversas áreas científicas.</p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- App 1: Quiz de ciencia -->
+          <div class="card" onclick="abrirModalCarrusel([
+            'https://lh3.googleusercontent.com/d/1scwR8_djBMvBHy-Z-1IWP861yvm_hK0E',
+            'https://lh3.googleusercontent.com/d/1LO8DysSKdumP6iM0kwPa8zYCNVOakvMr'
+          ], '📱 Quiz de ciencia')">
+            <div class="card-thumb" style="position: relative; overflow: hidden;">
+              <img src="https://lh3.googleusercontent.com/d/1scwR8_djBMvBHy-Z-1IWP861yvm_hK0E" 
+                   alt="Quiz de ciencia" 
+                   style="width:100%; height:100%; object-fit:cover;">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-app">Carrusel</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">📱 Quiz de ciencia</div>
+              <div class="card-desc">Demostración de funcionalidad básica: preguntas y respuestas de verdadero y falso.</div>
+              <button class="btn-download-aia" onclick="event.stopPropagation(); window.open('https://drive.google.com/uc?export=download&id=18LAzc_YSo3ESQEZd8q1FprwM--5811jL', '_blank')" style="margin-top: 0.8rem; width: 100%; background: linear-gradient(135deg, rgba(224,64,251,0.15), rgba(139,63,255,0.15)); border: 1px solid rgba(224,64,251,0.3); border-radius: 10px; padding: 0.5rem; color: var(--pink); font-family: var(--font-mono); font-size: 0.65rem; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px;"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+                ⬇ DESCARGAR .aia (Proyecto App Inventor)
+              </button>
+            </div>
+          </div>
+
+          <!-- App 2: Lista con TinyDB -->
+          <div class="card" onclick="abrirModalCarrusel([
+            'https://lh3.googleusercontent.com/d/1U-NfoiPIkYHwkrBx35kCOneNIY8Tm1rV',
+            'https://lh3.googleusercontent.com/d/16NP1Ds-2Awa2PdVcfKvYOR6p7oSwK44_'
+          ], '📱 App: Lista con TinyDB')">
+            <div class="card-thumb" style="position: relative; overflow: hidden;">
+              <img src="https://lh3.googleusercontent.com/d/1U-NfoiPIkYHwkrBx35kCOneNIY8Tm1rV" 
+                   alt="Lista con TinyDB" 
+                   style="width:100%; height:100%; object-fit:cover;">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-app">Carrusel</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">📱 App: Lista con TinyDB</div>
+              <div class="card-desc">Aplicación de lista de tareas con almacenamiento local usando TinyDB en App Inventor.</div>
+              <button class="btn-download-aia" onclick="event.stopPropagation(); window.open('https://drive.google.com/uc?export=download&id=1-nLVI_FjQs7o_ZmyangRUaOKcliu_g7b', '_blank')" style="margin-top: 0.8rem; width: 100%; background: linear-gradient(135deg, rgba(224,64,251,0.15), rgba(139,63,255,0.15)); border: 1px solid rgba(224,64,251,0.3); border-radius: 10px; padding: 0.5rem; color: var(--pink); font-family: var(--font-mono); font-size: 0.65rem; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px;"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+                ⬇ DESCARGAR .aia (Proyecto App Inventor)
+              </button>
+            </div>
+          </div>
+
+          <!-- App 3: Registro de pacientes -->
+          <div class="card" onclick="abrirModalCarrusel([
+            'https://lh3.googleusercontent.com/d/1EWA7W48gvsqLe3vN31SQ0yqLTkXCPIHU',
+            'https://lh3.googleusercontent.com/d/16-KGYOz_uDH45aKkHUdpoT7Z6CRjCvBc'
+          ], '🧠 Registro de pacientes')">
+            <div class="card-thumb" style="position: relative; overflow: hidden;">
+              <img src="https://lh3.googleusercontent.com/d/1EWA7W48gvsqLe3vN31SQ0yqLTkXCPIHU" 
+                   alt="Registro de pacientes" 
+                   style="width:100%; height:100%; object-fit:cover;">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-app">Carrusel</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">🧠 Registro de pacientes</div>
+              <div class="card-desc">Aplicación interactiva para el registro y gestión de información de pacientes.</div>
+              <button class="btn-download-aia" onclick="event.stopPropagation(); window.open('https://drive.google.com/uc?export=download&id=1AUVsg_1a52htugNHdrl4SccMR2avrhkt', '_blank')" style="margin-top: 0.8rem; width: 100%; background: linear-gradient(135deg, rgba(224,64,251,0.15), rgba(139,63,255,0.15)); border: 1px solid rgba(224,64,251,0.3); border-radius: 10px; padding: 0.5rem; color: var(--pink); font-family: var(--font-mono); font-size: 0.65rem; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px;"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+                ⬇ DESCARGAR .aia (Proyecto App Inventor)
+              </button>
+            </div>
+          </div>
+
+          <!-- App 4: Ejercicio de login -->
+          <div class="card" onclick="abrirModalCarrusel([
+            'https://lh3.googleusercontent.com/d/16_Y3333U2_ji_LKmZCpjBtwJPaoAiwZD',
+            'https://lh3.googleusercontent.com/d/1gxlf1j7on4g6dSexmWV0srpBtcsUoDqQ'
+          ], '📱 Ejercicio de login')">
+            <div class="card-thumb" style="position: relative; overflow: hidden;">
+              <img src="https://lh3.googleusercontent.com/d/16_Y3333U2_ji_LKmZCpjBtwJPaoAiwZD" 
+                   alt="Ejercicio de login" 
+                   style="width:100%; height:100%; object-fit:cover;">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-app">Carrusel</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">📱 Ejercicio de login</div>
+              <div class="card-desc">App para ejercicio de inicio de sesión con validación.</div>
+              <button class="btn-download-aia" onclick="event.stopPropagation(); window.open('https://drive.google.com/uc?export=download&id=1zGZLXg13PLKdD8UaDt1sB8xdq_x_VMRC', '_blank')" style="margin-top: 0.8rem; width: 100%; background: linear-gradient(135deg, rgba(224,64,251,0.15), rgba(139,63,255,0.15)); border: 1px solid rgba(224,64,251,0.3); border-radius: 10px; padding: 0.5rem; color: var(--pink); font-family: var(--font-mono); font-size: 0.65rem; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px;"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+                ⬇ DESCARGAR .aia (Proyecto App Inventor)
+              </button>
+            </div>
+          </div>
+
+          <!-- App 5: Ejercicio de CRUD -->
+          <div class="card" onclick="abrirModalCarrusel([
+            'https://lh3.googleusercontent.com/d/1cHqZSjLd4ap5r21SrRu_SiN_lPXATEPP',
+            'https://lh3.googleusercontent.com/d/1gzPjrt77yGyoJyXBDOkVaGcppKfkdt33'
+          ], '📖 Ejercicio de CRUD')">
+            <div class="card-thumb" style="position: relative; overflow: hidden;">
+              <img src="https://lh3.googleusercontent.com/d/1cHqZSjLd4ap5r21SrRu_SiN_lPXATEPP" 
+                   alt="Ejercicio de CRUD" 
+                   style="width:100%; height:100%; object-fit:cover;">
+              <div class="thumb-overlay"></div>
+              <div class="type-badge type-app">Carrusel</div>
+              <div class="play-badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <div class="card-body">
+              <div class="card-title">📖 Ejercicio de CRUD</div>
+              <div class="card-desc">Aplicación de gestión de datos con operaciones de creación, lectura, actualización y eliminación.</div>
+              <button class="btn-download-aia" onclick="event.stopPropagation(); window.open('https://drive.google.com/uc?export=download&id=11YUbpl48wTrv2foTrbpWzj-D8jyCf_uJ', '_blank')" style="margin-top: 0.8rem; width: 100%; background: linear-gradient(135deg, rgba(224,64,251,0.15), rgba(139,63,255,0.15)); border: 1px solid rgba(224,64,251,0.3); border-radius: 10px; padding: 0.5rem; color: var(--pink); font-family: var(--font-mono); font-size: 0.65rem; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px;"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+                ⬇ DESCARGAR .aia (Proyecto App Inventor)
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bloque de material complementario (PDF/Word) -->
+        <div class="pdf-resource-block" style="background: rgba(224,64,251,0.05); border-color: rgba(224,64,251,0.2); margin-top: 2rem;">
+          <div class="pdf-resource-header">
+            <div class="pdf-icon" style="background: rgba(224,64,251,0.1); border-color: rgba(224,64,251,0.2);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--pink)" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m.75 12l3 3m0 0l3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
+            </div>
+            <div>
+              <h4>Material Complementario · App Inventor</h4>
+              <p class="mono">Guía didáctica en formato Word/PDF</p>
+            </div>
+          </div>
+          
+          <div class="pdf-embed" style="margin-bottom: 1rem;">
+            <iframe src="https://drive.google.com/file/d/1kYELOLmbDi354cF8iF7fgC03vpUagHdc/preview" style="width:100%;height:55vh;border:none;" allow="autoplay" allowfullscreen></iframe>
+          </div>
+          
+          <div style="text-align:center;">
+            <a href="https://drive.google.com/file/d/1kYELOLmbDi354cF8iF7fgC03vpUagHdc/view" target="_blank" rel="noopener" class="btn-drive" style="background: linear-gradient(135deg, #e040fb, #c026d3);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+              ABRIR GUÍA EN GOOGLE DRIVE
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ========== PANEL 5: WEB ========== -->
+      <div class="tab-panel" id="web">
+        <div class="corner-fold"></div>
+        <div class="sec-header">
+          <div class="sec-icon" style="--icon-color: var(--cyan);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3"/></svg>
+          </div>
+          <div class="sec-title-block">
+            <div class="sec-label mono">// MÓDULO_06</div>
+            <div class="sec-title">Sitio Web Educativo Integrado</div>
+            <div class="sec-desc">Enciclopedia de Dinosaurios</div>
+          </div>
+        </div>
+
+        <div class="info-block cyan-block">
+          <div class="info-block-header" style="color: var(--cyan);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"/></svg>
+            Sobre la Web Educativa
+          </div>
+          <p>Este portafolio se complementa con un sitio web educativo externo: una enciclopedia temática sobre dinosaurios, desarrollada como proyecto integrador. Incluye clasificación por períodos, tabla comparativa y quiz interactivo.</p>
+        </div>
+
+        <!-- VISTA PREVIA EMBEBIDA (IFRAME) -->
+        <div style="margin-bottom: 1rem; border-radius: 24px; overflow: hidden; border: 1px solid rgba(34,211,238,0.2); background: var(--bg-void);">
+          <iframe src="https://lh241243-hash.github.io/enciclopediaDino/" style="width:100%; height: 70vh; border: none; display: block;" title="Enciclopedia de Dinosaurios" loading="lazy"></iframe>
+        </div>
+
+        <!-- BOTÓN PEQUEÑO PARA ABRIR EN NUEVA PESTAÑA -->
+        <div style="text-align: center; margin-top: 0.5rem;">
+          <a href="https://lh241243-hash.github.io/enciclopediaDino/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1.2rem; background: rgba(34,211,238,0.1); border: 1px solid rgba(34,211,238,0.3); border-radius: 40px; color: var(--cyan); font-family: var(--font-mono); font-size: 0.7rem; text-decoration: none; transition: all 0.2s ease;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px;"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+            ABRIR EN NUEVA PESTAÑA
+          </a>
+          <p class="web-hint mono" style="margin-top: 0.5rem; font-size: 0.6rem;">⬆ Vista previa integrada · Botón para pantalla completa</p>
+        </div>
+      </div>
+
+      <!-- ========== PANEL 6: CONCLUSIONES ========== -->
+      <div class="tab-panel" id="conclusiones">
+        <div class="corner-fold"></div>
+        <div class="sec-header">
+          <div class="sec-icon" style="--icon-color: var(--cyan);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div class="sec-title-block">
+            <div class="sec-label mono">// FINAL_REPORT.exe</div>
+            <div class="sec-title">Conclusiones y Cierre del Portafolio</div>
+            <div class="sec-desc">Reflexiones finales y recursos utilizados</div>
+          </div>
+        </div>
+
+        <!-- REFLEXIONES Y APRENDIZAJES -->
+        <div class="info-block">
+          <div class="info-block-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"/></svg>
+            Reflexiones y Aprendizajes por Fase
+          </div>
+          
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <div style="background: rgba(139,63,255,0.08); border-radius: 12px; padding: 1rem; border-left: 3px solid var(--purple);">
+              <strong style="color: var(--purple-l);">📚 Fase 1 · Fundamentos y Creación de Contenidos</strong>
+              <p style="margin-top: 0.5rem; font-size: 0.85rem;">Aprendí que el diseño multimedia no es solo estética, sino también psicología cognitiva. Los principios de Mayer me enseñaron a crear contenidos que realmente facilitan el aprendizaje.</p>
+            </div>
+            
+            <div style="background: rgba(34,211,238,0.08); border-radius: 12px; padding: 1rem; border-left: 3px solid var(--cyan);">
+              <strong style="color: var(--cyan);">🤖 Fase 2 · Aplicación de IA Generativa</strong>
+              <p style="margin-top: 0.5rem; font-size: 0.85rem;">La ingeniería de prompts es una habilidad fundamental. Aprendí que una buena instrucción + contexto adecuado = resultados sorprendentes.</p>
+            </div>
+            
+            <div style="background: rgba(251,146,60,0.08); border-radius: 12px; padding: 1rem; border-left: 3px solid var(--orange);">
+              <strong style="color: var(--orange);">🐱 Fase 3 · Programación con Scratch</strong>
+              <p style="margin-top: 0.5rem; font-size: 0.85rem;">Scratch me permitió entender la lógica de programación sin la barrera de la sintaxis. Desarrollar juegos educativos fue una experiencia transformadora.</p>
+            </div>
+            
+            <div style="background: rgba(224,64,251,0.08); border-radius: 12px; padding: 1rem; border-left: 3px solid var(--pink);">
+              <strong style="color: var(--pink);">📱 Fase 4 · MIT App Inventor</strong>
+              <p style="margin-top: 0.5rem; font-size: 0.85rem;">Crear una aplicación funcional sin saber Java fue increíble. Comprendí el potencial de las herramientas visuales para democratizar el desarrollo de software.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONCLUSIONES FINALES -->
+        <div class="info-block">
+          <div class="info-block-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15"/></svg>
+            Conclusiones del Proceso Formativo
+          </div>
+          <p>El curso de Desarrollo de Contenidos Digitales y Multimedia me permitió consolidar competencias clave en cuatro áreas fundamentales: <strong>diseño digital</strong>, <strong>IA generativa</strong>, <strong>programación visual con Scratch</strong> y <strong>desarrollo de apps con App Inventor</strong>.</p>
+          <p style="margin-top: 0.8rem;"><strong>Competencias consolidadas:</strong> Pensamiento computacional, diseño UX/UI, ingeniería de prompts, desarrollo multimedia interactivo.</p>
+          <p style="margin-top: 0.8rem;"><strong>Proyección profesional:</strong> Aplicar estos conocimientos en el diseño de experiencias educativas digitales y prototipado de aplicaciones.</p>
+        </div>
+
+        <!-- REFERENCIAS Y HERRAMIENTAS -->
+        <div class="info-block">
+          <div class="info-block-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 00-.491 6.347A48.62 48.62 0 0112 20.904a48.62 48.62 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.636 50.636 0 00-2.658-.813A59.906 59.906 0 0112 3.493a59.903 59.903 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0112 13.489a50.702 50.702 0 017.74-3.342"/></svg>
+            Referencias y Herramientas Digitales
+          </div>
+          
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+            <div>
+              <strong style="color: var(--purple-l);">🛠️ Herramientas utilizadas</strong>
+              <ul style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-2); list-style: none; padding-left: 0;">
+                <li>✦ Canva · Genially · Figma</li>
+                <li>✦ ChatGPT · Gemini · DALL-E · Copilot</li>
+                <li>✦ Scratch · MIT App Inventor</li>
+                <li>✦ VS Code · GitHub · Netlify</li>
+                <li>✦ Google Drive · YouTube</li>
+              </ul>
+            </div>
+            <div>
+              <strong style="color: var(--cyan);">📚 Referencias APA (7ª edición)</strong>
+              <ul style="margin-top: 0.5rem; font-size: 0.75rem; color: var(--text-2); list-style: none; padding-left: 0;">
+                <li>✦ MIT Media Lab. (2024). <em>Scratch</em>. https://scratch.mit.edu</li>
+                <li>✦ MIT App Inventor. (2024). <em>Documentación oficial</em>. https://appinventor.mit.edu</li>
+                <li>✦ Mayer, R. E. (2021). <em>Multimedia Learning</em> (3rd ed.). Cambridge University Press.</li>
+                <li>✦ OpenAI. (2024). <em>ChatGPT: Guía de prompts</em>. https://openai.com</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div style="margin-top: 1rem; padding-top: 0.8rem; border-top: 1px solid rgba(139,63,255,0.2); text-align: center;">
+            <span class="mono" style="font-size: 0.7rem; color: var(--text-3);">// Portafolio desarrollado para Desarrollo de Contenidos Digitales y Multimedia · UTS 2026</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-left mono">
+        <span class="blink-dot"></span>
+        PORTAFOLIO_DIGITAL.exe · Laura Herrera & Gustavo Duarte
+      </div>
+      <div class="footer-right mono">
+        Contenidos Digitales y Multimedia · UTS · 2026
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- ===================== MODAL ===================== -->
+<div class="modal-overlay" id="modal">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+    <div class="modal-inner" id="modalInner"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
