@@ -392,6 +392,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (!messagesContainer) return;
 
+  // Mensaje de bienvenida con temas disponibles
+  const mensajeBienvenida = `
+    🤖 ¡Hola! Soy Cyber Tutor, tu asistente educativo.
+    
+    💡 Puedo responder preguntas sobre estos temas:
+    
+    • 🐍 Python - Conceptos básicos y usos
+    • ☕ Java - Características y aplicaciones
+    • 🌐 JavaScript - El lenguaje de la web
+    • 📄 HTML - Estructura de páginas web
+    • 🎨 CSS - Estilos y diseño web
+    • 🧬 POO - Programación Orientada a Objetos
+    • 🧠 IA - Inteligencia Artificial
+    • 🔌 API - ¿Qué es y para qué sirve?
+    • 🐱 Scratch - Programación visual
+    • 📱 App Inventor - Apps sin código
+    • 🐙 GitHub - Control de versiones
+    • 💬 Prompts - Ingeniería de prompts
+    
+    ✏️ Escribe tu pregunta y te ayudaré.
+  `;
+
   // Respuestas predefinidas
   const respuestas = {
     'python': '🐍 Python es un lenguaje de programación interpretado, de alto nivel y multiplataforma. Es famoso por su sintaxis clara y legible. Se usa en IA, ciencia de datos, desarrollo web y automatización.',
@@ -400,25 +422,34 @@ document.addEventListener('DOMContentLoaded', () => {
     'html': '📄 HTML es el lenguaje de marcado para estructurar contenido web. Define títulos, párrafos, imágenes, enlaces, etc.',
     'css': '🎨 CSS es el lenguaje para diseñar y dar estilo a páginas web. Controla colores, fuentes, layouts y animaciones.',
     'oop': '🧬 La Programación Orientada a Objetos se basa en clases y objetos. Sus pilares son: encapsulación, herencia y polimorfismo.',
-    'ia': '🧠 La Inteligencia Artificial es la simulación de procesos de inteligencia humana por máquinas. Incluye ML, Deep Learning y NLP.',
-    'api': '🔌 Una API es un conjunto de reglas que permite que dos aplicaciones se comuniquen entre sí.',
+    'programación orientada a objetos': '🧬 La Programación Orientada a Objetos se basa en clases y objetos. Sus pilares son: encapsulación, herencia y polimorfismo.',
+    'poo': '🧬 La Programación Orientada a Objetos (POO) se basa en clases y objetos. Sus pilares son encapsulación, herencia y polimorfismo.',
+    'ia': '🧠 La Inteligencia Artificial es la simulación de procesos de inteligencia humana por máquinas. Incluye Machine Learning, Deep Learning y NLP.',
+    'inteligencia artificial': '🧠 La Inteligencia Artificial es la simulación de procesos de inteligencia humana por máquinas. Incluye Machine Learning, Deep Learning y NLP.',
+    'api': '🔌 Una API (Application Programming Interface) es un conjunto de reglas que permite que dos aplicaciones se comuniquen entre sí.',
     'scratch': '🐱 Scratch es un lenguaje visual del MIT para aprender programación mediante bloques arrastrables. Ideal para niños y principiantes.',
-    'app inventor': '📱 App Inventor es una plataforma visual del MIT para crear aplicaciones Android sin código complejo.',
-    'github': '🐙 GitHub es una plataforma para alojar código usando control de versiones Git. Permite colaboración y portafolios.',
-    'prompt': '💬 Un prompt es una instrucción que das a una IA para que genere una respuesta. Debe incluir: Rol, Contexto, Tarea y Formato.',
-    'hola': '👋 ¡Hola! Soy Cyber Tutor. Pregúntame sobre programación, IA, tecnología o diseño digital.',
-    'gracias': '😊 ¡De nada! Estoy aquí para ayudarte. ¿Tienes otra pregunta?',
-    'ayuda': '📚 Puedo responder sobre: Python, Java, JavaScript, HTML, CSS, OOP, IA, API, Scratch, App Inventor, GitHub y Prompts.'
+    'app inventor': '📱 App Inventor es una plataforma visual del MIT para crear aplicaciones Android sin necesidad de escribir código complejo.',
+    'github': '🐙 GitHub es una plataforma para alojar código usando control de versiones Git. Permite colaboración y portafolios profesionales.',
+    'prompt': '💬 Un prompt es una instrucción que le das a una IA para que genere una respuesta. Debe incluir: Rol, Contexto, Tarea y Formato.',
+    'ingeniería de prompts': '💬 La ingeniería de prompts es el arte de diseñar instrucciones efectivas para IA. Incluye: definir un rol, dar contexto, especificar la tarea y solicitar un formato.',
+    'hola': '👋 ¡Hola! Soy Cyber Tutor. Puedo responder preguntas sobre: Python, Java, JavaScript, HTML, CSS, POO, IA, API, Scratch, App Inventor, GitHub y Prompts. ¿Qué te gustaría saber?',
+    'gracias': '😊 ¡De nada! Estoy aquí para ayudarte. Si tienes más preguntas sobre programación o tecnología, no dudes en consultarme.',
+    'ayuda': '📚 Puedo responder sobre: Python, Java, JavaScript, HTML, CSS, POO, IA, API, Scratch, App Inventor, GitHub y Prompts. ¿Sobre qué tema quieres saber más?',
+    'que puedes hacer': '📚 Puedo responder preguntas sobre: Python, Java, JavaScript, HTML, CSS, Programación Orientada a Objetos, Inteligencia Artificial, APIs, Scratch, App Inventor, GitHub y Prompts. ¡Pregúntame lo que quieras!',
+    'temas': '📚 Los temas que manejo son: Python, Java, JavaScript, HTML, CSS, POO, IA, API, Scratch, App Inventor, GitHub y Prompts. ¿Sobre cuál quieres información?'
   };
 
   function getRespuesta(pregunta) {
     const q = pregunta.toLowerCase().trim();
+    
+    // Buscar coincidencia exacta o por palabra clave
     for (const [key, value] of Object.entries(respuestas)) {
       if (q.includes(key)) {
         return value;
       }
     }
-    return '🔍 No tengo información específica sobre eso. Pregúntame sobre: Python, Java, JavaScript, HTML, CSS, OOP, IA, API, Scratch, App Inventor, GitHub o Prompts.';
+    
+    return '🔍 No tengo información específica sobre eso.\n\n📚 Los temas que puedo responder son:\n• Python, Java, JavaScript\n• HTML, CSS\n• Programación Orientada a Objetos (POO)\n• Inteligencia Artificial (IA)\n• APIs\n• Scratch, App Inventor\n• GitHub\n• Prompts e Ingeniería de prompts\n\n✏️ Reformula tu pregunta sobre alguno de estos temas.';
   }
 
   function addMessage(text, isUser) {
@@ -430,10 +461,11 @@ document.addEventListener('DOMContentLoaded', () => {
       padding: 0.5rem 0.7rem;
       border-radius: 12px;
       font-size: 0.7rem;
-      line-height: 1.4;
+      line-height: 1.5;
       max-width: 90%;
       align-self: ${isUser ? 'flex-end' : 'flex-start'};
       word-wrap: break-word;
+      white-space: pre-wrap;
     `;
     msgDiv.innerHTML = text.replace(/\n/g, '<br>');
     messagesContainer.appendChild(msgDiv);
@@ -454,8 +486,12 @@ document.addEventListener('DOMContentLoaded', () => {
       addMessage(respuesta, false);
       statusSpan.innerHTML = '💡 listo';
       statusSpan.style.color = 'var(--text-3)';
-    }, 400);
+    }, 300);
   }
+
+  // Limpiar mensajes existentes y agregar bienvenida
+  messagesContainer.innerHTML = '';
+  addMessage(mensajeBienvenida, false);
 
   sendBtn.addEventListener('click', enviarPregunta);
   input.addEventListener('keypress', (e) => {
